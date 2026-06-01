@@ -1,0 +1,48 @@
+.box {
+    
+    border: 50px solid #e74c3c;
+    padding: 50px;
+    margin-bottom : 20px;
+}
+
+
+.box.green {
+    
+    border: 50px solid #2ecc71;
+    padding: 50px;
+    margin-bottom : 20px;
+}
+
+.box.blue {
+    
+    border: 50px solid #3498db;
+    padding: 50px;
+    margin-bottom : 20px;
+}
+
+.box4 {
+    
+    border: 50px solid #8e44ad;
+    padding: 50px;
+    margin-bottom : 20px;
+    visibility: hidden; /* 자리는 남고 숨김 처리 */
+}
+
+.box5 {
+    
+    border: 50px solid #2c3e50;
+    padding: 50px;
+    margin-bottom : 20px;
+    display: none; /* 완전히 숨김 처리 자리도 없어지고 밑에 있는게 위로 올라옴 */
+}
+
+.box6 {
+    
+    border: 50px solid #f1c40f;
+    padding: 50px;
+}
+
+.img-size {
+    width: 200px;
+    
+}
