@@ -1,0 +1,139 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
+.line {
+    border : 1px solid white;
+    text-align : center;
+}
+
+.mother{
+    display : flex;
+    border : 1px solid black;
+}
+
+.childeren{
+    color : white;
+    background-color : black;
+    width: 100px;
+    height: 100px;
+}
+
+.problem1{
+    display : flex;
+    justify-content : flex-end;
+    flex: 1;
+}
+
+.problem1 .childeren{
+    margin-left : 5px;
+}
+
+.mother2{
+    position: relative;
+    border : 1px solid black;
+    height : 300px;
+}
+
+.problem2-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.problem2-3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.mother3{
+    border : 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.childeren3-1{
+    width: 200px;
+    height: 200px;
+    background-color : darkgray;
+    color : white;
+    position: relative;
+    margin-top : 10px;
+}
+
+
+.childeren3-2{
+    width: 100px;
+    height: 100px;
+    background-color : black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.mother4{
+    border : 1px solid black;
+    height : 200px;
+}
+
+.childeren4-1{
+    width: 100px;
+    height: 100px;
+    background-color : black;
+    color : white;
+    position: relative;
+    
+}
+
+
+.childeren4-2{
+    width: 100px;
+    height: 100px;
+    background-color : darkgray;
+    position: relative;
+    left : 30px;
+    top : 30px;
+}
+
+
+.mother5{
+    border : 1px solid black;
+    height : 400px;
+    display : flex;
+    justify-content : flex-end;
+    align-items : flex-end;
+}
+
+.childeren5-1{
+    width: 400px;
+    height: 200px;
+    background-color : gray;
+    color : white;
+    position: relative;
+    
+}
+
+
+.childeren5-2{
+    width: 100px;
+    height: 100px;
+    background-color : black;
+    position: relative;
+ 
+}
+
+.childeren5-3{
+    width: 100px;
+    height: 100px;
+    background-color : black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
