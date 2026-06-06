@@ -1,0 +1,41 @@
+body {
+    margin:0px;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+a {
+    color:  white;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+nav {
+    height : 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+main {
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+}
+
+.nav-item {
+    padding : 28px 17px;
+    font-weight : 700px;
+}
