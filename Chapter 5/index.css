@@ -46,7 +46,7 @@ footer {
 }
 
 .footer-line {
-    border: red 1px solid;
+    
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -61,7 +61,7 @@ footer {
 .footer-line-first {
      display: flex;
      gap: 30px;
-     border: red 1px solid;
+     
 }
 
 .footer-text {
@@ -136,7 +136,7 @@ footer {
 }
 
 .second-box {
-    border: red 1px solid;
+    
     width: 40%;
     display: flex;
     justify-content: flex-end;
