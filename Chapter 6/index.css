@@ -1,0 +1,39 @@
+.banner{
+    position: relative;
+}
+
+.banner-img{
+    width: 100%;
+    display: block;
+}
+
+.buy-btn{
+    position: absolute;
+    top: 55%;
+    left: 62%;
+    background-color: transparent;
+    color : black;
+    letter-spacing: 0;
+    transition-timing-function: linear;
+    padding: 10px 24px 9px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    background: transparent;
+    box-sizing: border-box;
+
+    transform: translate(-50%, -50%);
+}
+
+.buy-btn:hover{
+    color : black
+}
+
+.card-title{
+    text-align:center;
+    font-weight:bold;
+}
